@@ -1,13 +1,13 @@
 import EventsIcon from './icons/events';
 import GuidesIcon from './icons/guides';
-import MessagesIcon from './icons/messages';
+import UserIcon from './icons/users';
 import PicturesIcon from './icons/pictures';
 import DocumentsIcon from './icons/documents';
 import StatisticsIcon from './icons/statistics';
 
 const data = [
   {
-    section: 'Documents',
+    section: 'Blog Posts',
     icon: <DocumentsIcon />,
     content: [
       {
@@ -25,8 +25,8 @@ const data = [
     ],
   },
   {
-    section: 'Messages',
-    icon: <MessagesIcon />,
+    section: 'Memberships',
+    icon: <UserIcon />,
     content: [
       {
         title: 'Unbox',
@@ -43,7 +43,7 @@ const data = [
     ],
   },
   {
-    section: 'Pictures',
+    section: 'Media',
     icon: <PicturesIcon />,
     content: [
       {
@@ -69,12 +69,12 @@ const data = [
         link: '/statistics/finances',
       },
       {
-        title: 'Call Stats',
-        link: '/statistics/call-stats',
+        title: 'Memberships',
+        link: '/statistics/memberships',
       },
       {
-        title: 'Trip Logs',
-        link: '/statistics/trip-logs',
+        title: 'Donations',
+        link: '/statistics/donations',
       },
     ],
   },
@@ -83,12 +83,8 @@ const data = [
     icon: <EventsIcon />,
     content: [
       {
-        title: 'Weddings',
+        title: 'Galas',
         link: '/events/weddings',
-      },
-      {
-        title: 'Networking',
-        link: '/events/networking',
       },
     ],
   },

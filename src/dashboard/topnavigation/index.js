@@ -68,8 +68,8 @@ export default function TopNavigation() {
             </a>
             <a href="#" className="block relative">
               <img
-                alt="Stone Cold Steve Austin"
-                src="/images/1.jpg"
+                alt="Kevin Peterson"
+                src="https://storage.googleapis.com/ynpn-media/Peterson_Kevin_Headshot_6abcf424bf/Peterson_Kevin_Headshot_6abcf424bf.jpg"
                 className="h-10  object-cover rounded-full w-10"
               />
             </a>
